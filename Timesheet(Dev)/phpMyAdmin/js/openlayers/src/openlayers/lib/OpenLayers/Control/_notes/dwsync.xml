@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="ArgParser.js" server="H:/Timesheet(Dev)/" local="130444720460000000" remote="130444720460000000" Dst="2" />
+<file name="Attribution.js" server="H:/Timesheet(Dev)/" local="130444720460000000" remote="130444720460000000" Dst="2" />
+<file name="Button.js" server="H:/Timesheet(Dev)/" local="130444720460000000" remote="130444720460000000" Dst="2" />
+<file name="DragFeature.js" server="H:/Timesheet(Dev)/" local="130444720460000000" remote="130444720460000000" Dst="2" />
+<file name="DragPan.js" server="H:/Timesheet(Dev)/" local="130444720460000000" remote="130444720460000000" Dst="2" />
+<file name="DrawFeature.js" server="H:/Timesheet(Dev)/" local="130444720460000000" remote="130444720460000000" Dst="2" />
+<file name="EditingToolbar.js" server="H:/Timesheet(Dev)/" local="130444720460000000" remote="130444720460000000" Dst="2" />
+<file name="GetFeature.js" server="H:/Timesheet(Dev)/" local="130444720460000000" remote="130444720460000000" Dst="2" />
+<file name="Graticule.js" server="H:/Timesheet(Dev)/" local="130444720460000000" remote="130444720460000000" Dst="2" />
+<file name="KeyboardDefaults.js" server="H:/Timesheet(Dev)/" local="130444720460000000" remote="130444720460000000" Dst="2" />
+<file name="LayerSwitcher.js" server="H:/Timesheet(Dev)/" local="130444720460000000" remote="130444720460000000" Dst="2" />
+<file name="Measure.js" server="H:/Timesheet(Dev)/" local="130444720460000000" remote="130444720460000000" Dst="2" />
+<file name="ModifyFeature.js" server="H:/Timesheet(Dev)/" local="130444720460000000" remote="130444720460000000" Dst="2" />
+<file name="MouseDefaults.js" server="H:/Timesheet(Dev)/" local="130444720460000000" remote="130444720460000000" Dst="2" />
+<file name="MousePosition.js" server="H:/Timesheet(Dev)/" local="130444720460000000" remote="130444720460000000" Dst="2" />
+<file name="MouseToolbar.js" server="H:/Timesheet(Dev)/" local="130444720460000000" remote="130444720460000000" Dst="2" />
+<file name="Navigation.js" server="H:/Timesheet(Dev)/" local="130444720460000000" remote="130444720460000000" Dst="2" />
+<file name="NavigationHistory.js" server="H:/Timesheet(Dev)/" local="130444720460000000" remote="130444720460000000" Dst="2" />
+<file name="NavToolbar.js" server="H:/Timesheet(Dev)/" local="130444720460000000" remote="130444720460000000" Dst="2" />
+<file name="OverviewMap.js" server="H:/Timesheet(Dev)/" local="130444720460000000" remote="130444720460000000" Dst="2" />
+<file name="Pan.js" server="H:/Timesheet(Dev)/" local="130444720460000000" remote="130444720460000000" Dst="2" />
+<file name="Panel.js" server="H:/Timesheet(Dev)/" local="130444720460000000" remote="130444720460000000" Dst="2" />
+<file name="PanPanel.js" server="H:/Timesheet(Dev)/" local="130444720460000000" remote="130444720460000000" Dst="2" />
+<file name="PanZoom.js" server="H:/Timesheet(Dev)/" local="130444720460000000" remote="130444720460000000" Dst="2" />
+<file name="PanZoomBar.js" server="H:/Timesheet(Dev)/" local="130444720460000000" remote="130444720460000000" Dst="2" />
+<file name="Permalink.js" server="H:/Timesheet(Dev)/" local="130444720460000000" remote="130444720460000000" Dst="2" />
+<file name="Scale.js" server="H:/Timesheet(Dev)/" local="130444720460000000" remote="130444720460000000" Dst="2" />
+<file name="ScaleLine.js" server="H:/Timesheet(Dev)/" local="130444720460000000" remote="130444720460000000" Dst="2" />
+<file name="SelectFeature.js" server="H:/Timesheet(Dev)/" local="130444720460000000" remote="130444720460000000" Dst="2" />
+<file name="SLDSelect.js" server="H:/Timesheet(Dev)/" local="130444720460000000" remote="130444720460000000" Dst="2" />
+<file name="Snapping.js" server="H:/Timesheet(Dev)/" local="130444720460000000" remote="130444720460000000" Dst="2" />
+<file name="Split.js" server="H:/Timesheet(Dev)/" local="130444720460000000" remote="130444720460000000" Dst="2" />
+<file name="TransformFeature.js" server="H:/Timesheet(Dev)/" local="130444720460000000" remote="130444720460000000" Dst="2" />
+<file name="WMSGetFeatureInfo.js" server="H:/Timesheet(Dev)/" local="130444720460000000" remote="130444720460000000" Dst="2" />
+<file name="WMTSGetFeatureInfo.js" server="H:/Timesheet(Dev)/" local="130444720460000000" remote="130444720460000000" Dst="2" />
+<file name="ZoomBox.js" server="H:/Timesheet(Dev)/" local="130444720460000000" remote="130444720460000000" Dst="2" />
+<file name="ZoomIn.js" server="H:/Timesheet(Dev)/" local="130444720460000000" remote="130444720460000000" Dst="2" />
+<file name="ZoomOut.js" server="H:/Timesheet(Dev)/" local="130444720460000000" remote="130444720460000000" Dst="2" />
+<file name="ZoomPanel.js" server="H:/Timesheet(Dev)/" local="130444720460000000" remote="130444720460000000" Dst="2" />
+<file name="ZoomToMaxExtent.js" server="H:/Timesheet(Dev)/" local="130444720460000000" remote="130444720460000000" Dst="2" />
+</dwsync>

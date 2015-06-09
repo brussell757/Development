@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="activate_emp.php" server="H:/Timesheet(Dev)/" local="130547540910000000" remote="130547540910000000" Dst="2" />
+<file name="active_dates.php" server="H:/Timesheet(Dev)/" local="130547540720000000" remote="130547540720000000" Dst="2" />
+<file name="add_job.php" server="H:/Timesheet(Dev)/" local="130547540780000000" remote="130547540780000000" Dst="2" />
+<file name="check_emp_disabled.php" server="H:/Timesheet(Dev)/" local="130547540570000000" remote="130547540570000000" Dst="2" />
+<file name="disable_emp.php" server="H:/Timesheet(Dev)/" local="130547540500000000" remote="130547540500000000" Dst="2" />
+<file name="emp_add_member.php" server="H:/Timesheet(Dev)/" local="130547540440000000" remote="130547540440000000" Dst="2" />
+<file name="emp_archives.php" server="H:/Timesheet(Dev)/" local="130595067900000000" remote="130595067900000000" Dst="2" />
+<file name="emp_content.php" server="H:/Timesheet(Dev)/" local="130773920148026721" remote="130773920140000000" Dst="2" />
+<file name="emp_list.php" server="H:/Timesheet(Dev)/" local="130553714660000000" remote="130553714660000000" Dst="2" />
+<file name="emp_remove_member.php" server="H:/Timesheet(Dev)/" local="130547539690000000" remote="130547539690000000" Dst="2" />
+<file name="include_disabled_emps.php" server="H:/Timesheet(Dev)/" local="130547539630000000" remote="130547539630000000" Dst="2" />
+<file name="job_dates.php" server="H:/Timesheet(Dev)/" local="130547539580000000" remote="130547539580000000" Dst="2" />
+<file name="remove_job.php" server="H:/Timesheet(Dev)/" local="130547539520000000" remote="130547539520000000" Dst="2" />
+<file name="update_emp_num.php" server="H:/Timesheet(Dev)/" local="130547539480000000" remote="130547539480000000" Dst="2" />
+<file name="update_load_rate.php" server="H:/Timesheet(Dev)/" local="130547539420000000" remote="130547539420000000" Dst="2" />
+<file name="admin_access.php" server="H:/Timesheet(Dev)/" local="130773922213851229" remote="130773922210000000" Dst="2" />
+<file name="no_admin_access.php" server="H:/Timesheet(Dev)/" local="130773922687231524" remote="130773922680000000" Dst="2" />
+<file name="check_admin_access.php" server="H:/Timesheet(Dev)/" local="130773929288738929" remote="130773929280000000" Dst="2" />
+</dwsync>

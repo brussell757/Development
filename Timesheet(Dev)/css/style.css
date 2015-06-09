@@ -1,0 +1,1593 @@
+/**************************************************
+	GENERAL
+**************************************************/
+body {
+	background-color: #06266f;
+	margin: 0;
+	padding: 0;
+}
+
+#page_container {
+	margin: 0 auto;
+  	width: 1050px;
+  	text-align: left;
+	position: relative;
+}
+
+.greet_user {
+	margin: -44px 0 0 35px;
+	position: relative;
+}
+
+.admin_greet_user {
+	margin: -49px 0 0 35px;
+	position: relative;
+}
+
+#content {
+	width: 1092px;
+	margin: -5px 0 0 5px;
+	background-color: #fff;
+	border: 3px solid #000;
+	border-bottom: none;
+	border-top: none;
+	overflow: hidden;
+}
+
+.footer {
+	margin: 0 0 0 5px;	
+	position: absolute;
+}
+
+.footer_text {
+	text-align: center;	
+	margin: 55px 0 0 80px;
+	position: relative;
+}
+
+/**************************************************
+	FORMAT LOGIN FORM
+**************************************************/
+
+#login {
+	width: 500px;
+	height: 270px;
+	border: 2px solid #000;
+	-webkit-box-shadow: 0 0 15px #000;
+    box-shadow: 0 0 15px #000;
+	background: #6787d0;
+	border-radius: 5px;
+	margin: 50px auto 20px;	
+	padding: 20px 0 0 0;
+}
+
+#login h2 {
+	font-family: 'Play', sans-serif;
+	margin-left: 140px;	
+}
+
+#login img {
+	float: right;
+	margin-top: -48px;
+	margin-right: 135px;	
+}
+
+#login h4 {
+	font-family: 'Play', sans-serif;
+	margin-left: 145px;
+	margin-top: -23px;
+}
+
+#login input.credintials {
+	width: 250px;
+	height: 25px;	
+	margin: 10px 120px;
+}
+
+#login input {
+	width: 15px;
+	height: 15px;
+	margin-left: 120px;
+}	
+
+#login button {
+	float: right;	
+	margin-right: 125px;
+	margin-top: -15px;
+	padding: 3px 15px;
+	border-radius: 5px;
+	border: none;
+	-webkit-box-shadow: 0 0 7px #000;
+    box-shadow: 0 0 7px #000;
+	font-family: 'Play', sans-serif;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+#login button:active {
+	box-shadow: none;
+	-webkit-box-shadow: none;		
+}
+
+#login button:focus {
+	outline: 0;	
+}
+
+/**************************************************
+	FORMAT DASHBOARD OPTIONS
+**************************************************/
+#dashboard_options {
+	margin: 0 -10px 0 0;
+	position: relative;
+	list-style: none;
+	list-style-position: outside;
+	padding: 20px 0 0 0;
+}
+
+#dashboard_options li {
+	float: left;	
+	padding: 0 5px 0 0;
+	margin: -10px 0 0 0;
+}
+
+#dashboard_options li:first-child {
+	padding: 0 5px 0 8px;	
+}
+
+#dashboard_options a {
+	color: #000; 
+	text-decoration: none;	
+}
+
+#dashboard_options a:hover {
+	color: #fff; 
+	text-decoration: none;	
+}
+
+/**************************************************
+	FORMAT OPTIONS
+**************************************************/
+#options {
+	margin: -17px 0 10px 270px;
+	position: relative;
+	list-style: none;
+}
+
+#options li {
+	float: left;	
+	padding: 0 15px 0 0;
+}
+
+#options button{
+	border: 1px solid #000;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	background: #fff;
+	font-weight: bold;
+	cursor: pointer;
+	-webkit-box-shadow: 0 0 5px #000;
+    box-shadow: 0 0 5px #000; 
+}
+
+#options button:hover {
+	box-shadow: none;	
+	-webkit-box-shadow: none;	
+	background: #a7bbe8;
+}
+
+#options button:focus {
+	outline: 0;	
+}
+
+#options .selected, #options .selected:hover {
+	box-shadow: none;	
+	-webkit-box-shadow: none;	
+	background: #6787d0;
+	box-shadow: 8px 0px 8px #888888;
+}
+
+/**************************************************
+	FORMAT DASHBOARD_LINKS
+**************************************************/
+#dashboard_links {
+	float: right;
+	margin: -18px -25px 20px 0;
+	position: relative;
+	list-style: none;
+	list-style-position: outside;
+}
+
+#dashboard_links li {
+	float: left;
+	padding: 0 5px 0 5px;	
+}
+
+#dashboard_links a {
+	color: #000;
+	text-decoration: none;	
+}
+
+/**************************************************
+	FORMAT LINKS
+**************************************************/
+#links {
+	float: right;
+	margin: -9px -25px 20px 0;
+	position: relative;
+	list-style: none;
+	list-style-position: outside;
+}
+
+#links li {
+	float: left;
+	padding: 0 5px 0 5px;	
+}
+
+#links a {
+	color: #000;
+	text-decoration: none;	
+}
+
+/**************************************************
+	FORMAT PAY_PERIOD FORM
+**************************************************/
+.pay_period_label {
+	margin: 10px 0 0 25px;
+	float: left;	
+}
+
+#pay_period {
+	clear: both;
+	margin: 0 0 0 25px;
+	float: left; 
+}
+
+/**************************************************
+	FORMAT TIMESHEET
+**************************************************/
+#timesheet {
+	width: 1040px;
+	margin: 70px auto 55px;
+	padding: 15px 0;
+	border: 2px solid black;
+	background: #6787d0;	
+}
+
+.table {
+	font-size: 14px;
+	margin: 0 auto 10px;
+	background-color: #fff;
+}
+
+.table .totals {
+	text-align: center;	
+}
+
+.table .description {
+	padding: 0 0 0 5px;	
+}
+
+.table input {
+	width:35px;
+	text-align: center;
+	border: none;
+	outline: none;
+}
+
+.table .weekend input {
+	width:35px;
+	height: 20px;
+	text-align: center;
+	border: none;
+	outline: none;
+	background-color: #ccc;
+}
+
+.table .contract_num_td {
+	width: 150px;
+}
+
+.table .date_td {
+	width: 35px;	
+}
+
+.table .total_td {
+	width: 50px;
+	text-align: center;	
+}
+
+/**************************************************
+	FORMAT ADMIN TIMESHEET
+**************************************************/
+#admin_timesheet {
+	width: 1040px;
+	margin: 70px auto 55px;
+	padding: 15px 0;
+	border: 2px solid black;
+	background: #6787d0;	
+}
+
+.table {
+	font-size: 14px;
+	margin: 0 auto 10px;
+	background-color: #fff;
+}
+
+.table .totals {
+	text-align: center;	
+}
+
+.table .description {
+	padding: 0 0 0 5px;	
+}
+
+.table input {
+	width:35px;
+	text-align: center;
+	border: none;
+	outline: none;
+}
+
+.table .weekend input {
+	width:35px;
+	height: 20px;
+	text-align: center;
+	border: none;
+	outline: none;
+	background-color: #ccc;
+}
+
+.table .contract_num_td {
+	width: 150px;
+}
+
+.table .date_td {
+	width: 35px;	
+}
+
+.table .total_td {
+	width: 50px;
+	text-align: center;	
+}
+
+/**************************************************
+	FORMAT SELECT_EMP
+**************************************************/
+#select_emp {
+	margin: 15px 0 0 35px; 
+}
+
+/**************************************************
+	FORMAT DISABLED EMPLOYEES SECTION
+**************************************************/
+#view_disabled_employees {
+	float: left;
+	margin: -16px 0 0 210px;	
+	color: black;
+	text-decoration: none;
+}
+
+.disabled_employees_text {
+	float: left;
+	margin: -20px 0 0 230px;	
+}
+
+
+/**************************************************
+	FORMAT EMPLOYEE JOBS AREAS
+**************************************************/
+#emp_jobs_header {
+	padding: 20px 0 0 0;
+	margin: 10px 0 0 32px;
+}
+
+#emp_jobs_header h3 {
+	margin: 70px 0 0 15px;
+	padding: 0 0 5px 0;	
+}
+
+#emp_jobs_header .emp_timesheet_label {
+	float: left;
+	margin: 0 0 0 10px;
+}
+
+#emp_jobs_header .emp_timesheet {
+	clear: both;
+	float: left;
+	margin: 0 0 0 10px;
+}
+
+#emp_jobs_header .emp_num_label {
+	float: right;
+	margin: -80px 255px 0 0;
+}
+
+#emp_jobs_header .emp_num {	
+	clear: both;
+	float: right;
+	margin: -102px 220px 0 0;
+	width: 20px;
+	text-align: center;
+}
+
+#emp_jobs_header .load_rate_label {
+	clear: both;
+	float: right;
+	margin: -101px 110px 0 0;
+}
+
+#emp_jobs_header .load_rate {
+	clear: both;
+	float: right;
+	margin: -102px 45px 0 0;
+	width: 50px;
+}
+
+#emp_jobs_header a {
+	color: #000;
+	text-decoration: none;	
+	border: 1px solid gray;
+	padding: 0 3px 0 3px;
+	margin: -1px 0 0 3px; 
+	width: 20px;
+	height: 20px;
+	background: #ccc;
+	cursor: pointer;
+	float: left;
+}
+
+#emp_jobs_header a:hover {
+	border: 1px solid black;
+}
+
+#emp_jobs_header .disable_emp {
+	float: right;	
+	margin: -20px 75px 0 0;
+}
+
+#emp_jobs_header .disable_emp_box {
+	float: right;
+	margin: -16px 55px 0 0;	
+}
+
+#emp_jobs_header .admin_access {
+	float: right;	
+	margin: 0 75px 0 0;
+}
+
+#emp_jobs_header .admin_access_box {
+	float: left;
+	margin: -14px 0 0 992px;	
+}
+
+#emp_jobs_header .return_emp_info {
+	float: right;	
+	margin: -22px 42px 0 0;
+	text-align: center;
+	width: 43px;
+    height: 20px;
+}
+
+#emp_jobs_header .add_button{
+	float: right;
+	margin: 10px 47px 0 0;
+	border: 1px solid #000;
+	border-bottom: none;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	cursor: pointer;
+	background: #a7bbe8;
+	outline: none;
+}
+
+#emp_jobs {
+	background: #a7bbe8;
+	border: 1px solid black;
+	width: 90%;
+	float: left;
+	margin: 0 0 40px 40px;
+	padding: 25px 10px;
+}
+
+/**************************************************
+	FORMAT EMPLOYEE GROUPS AREA
+**************************************************/
+#emp_groups_header {
+	padding: 20px 0 0 0;
+	margin: 40px 0 0 32px;
+}
+
+#emp_groups_header h3 {
+	margin: 50px 0 0 15px;
+	padding: 0 0 5px 0;	
+}
+
+#emp_groups_header button{
+	float: right;
+	margin: 10px 47px 0 0;
+	border: 1px solid #000;
+	border-bottom: none;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	cursor: pointer;
+	background: #a7bbe8;
+	outline: none;
+}
+
+#emp_groups {
+	background: #a7bbe8;
+	border: 1px solid black;
+	width: 90%;
+	float: left;
+	margin: 0 0 0 40px;
+	padding: 25px 10px;
+}
+
+
+/**************************************************
+	FORMAT JOBS
+**************************************************/
+.job {
+	width: 99%;
+	position: relative;
+	float: left;
+	background-color: #CCCCCC;
+	border: double;
+	border-color: #000;
+	margin: 1px 0 1px 0px;
+}
+
+.job .label{
+	float: left;
+	padding: 4px 0 0 10px;
+	width: 650px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.job .dates {
+	position: relative;
+	float: right;
+	padding: 2px 0 0 0;
+	width: 220px;
+}
+
+.job .editable_start {
+	width: 75px;
+	margin: 0;
+	padding: 0 0 0 5px;
+}
+
+.job .editable_end{
+	width: 75px;
+	padding: 0 0 0 5px;	
+	
+}
+
+.job .icon {
+	float: right;
+	margin: 0 20px 0 0;
+	outline: none;
+	width: 25px;
+	height: 25px;
+}
+
+.job .update {
+	display: none;
+}
+
+/**************************************************
+	FORMAT ADD JOBS SECTION ON EMPLOYEES TAB
+**************************************************/
+#job_list {
+	width: 99.9%;
+}
+
+#job_list select {
+	float: left;
+	margin: 3px 0 0 5px;	
+	width: 300px;
+}
+
+#job_list {
+	display: none;
+}
+
+/**************************************************
+	FORMAT ADD GROUPS SECTION ON EMPLOYEES TAB
+**************************************************/
+#group_list {
+	width: 99.9%;
+}
+
+#group_list select {
+	float: left;
+	margin: 2px 0 0 5px;	
+	width: 300px;
+}
+
+#group_list {
+	display: none;
+}
+/**************************************************
+	FORMAT ARCHIVES SECTION ON EMPLOYEES/JOBS TAB
+**************************************************/
+#inactive_jobs a {
+	padding: 25px 0 5px 3px;
+	float: left;
+	display: inline-block;
+	outline: none;
+	color: #000;	
+}
+
+.archive_jobs{
+	width: 99%;
+	position: relative;
+	float: left;
+	background-color: #CCCCCC;
+	border: double;
+	border-color: #000;
+	margin: 1px 0 1px 0px;
+}
+
+.archive_jobs .label {
+	float: left;
+	padding: 6px 0 0 10px;
+	width: 650px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.archive_jobs .dates span {
+	float: right;
+	padding: 6px 5px 0 0;
+}
+
+.archive_jobs .dates span:first-child {
+	padding: 6px 25px 0 0;
+}
+
+/**************************************************
+	FORMAT JOBS LIST ON JOBS TAB
+**************************************************/
+#jobs {
+	background: #a7bbe8;
+	border: 1px solid black;
+	width: 90%;
+	float: left;
+	postion: relative;
+	margin: 50px 0 0 40px;
+	padding: 10px 10px;
+}
+
+#new_job {
+	float: right;
+	position: relative;
+	margin: 32px 47px -50px 0;
+	border: 1px solid #000;
+	border-bottom: none;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	cursor: pointer;
+	background: #a7bbe8;
+	outline: none;
+}
+
+#jobs .job .dates {
+	position: relative;
+	float: right;
+	padding: 6px 0 0 10px;
+	width: 270px;	
+}
+
+#jobs .job .icon {
+	float: right;
+	margin: -6px 10px 0 0;
+	outline: none;
+	width: 25px;
+	height: 25px;
+}
+
+/**************************************************
+	FORMAT CREATE JOBS ON JOBS TAB
+**************************************************/
+#create_job {
+	float: left;
+	width: 97.5%;
+	padding: 10px;
+	border: double;
+	background: #CCCCCC;
+	display: inline-block;
+}
+
+#create_job input {
+	width: 280px;
+	margin: 0 0 5px 0;	
+	padding: 0 0 0 5px;
+}
+
+#create_job .start_date {
+	width: 85px;	
+}
+
+#create_job .end_date {
+	width: 85px;	
+}
+
+#create_job .funding {
+	width: 80px;
+	margin: 0 0 5px 0;	
+}
+
+#create_job .profit {
+	width: 50px;
+	margin: 0 0 5px 0;	
+}
+
+#create_job .buttons {
+	width: 30px;
+	height: 65px;
+	float: right;	
+}
+
+#create_job .add_icon {
+	background-image: url(../images/add.png);
+	background-repeat: no-repeat;
+	background-color: transparent;
+	margin: 0 0 0 5px;
+	border: none;	
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	outline: none;
+}
+
+#create_job .cancel_icon {
+	background-image: url(../images/cancel.png);
+	background-repeat: no-repeat;
+	background-color: transparent;
+	float: right;
+	border: none;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	outline: none;
+}
+
+.valid_numbers {
+	color:#000;
+	padding:2px 4px; 
+	border:solid 1px #BFBFBF;
+	border-radius:2px;
+	-moz-border-radius:2px; 
+	-webkit-border-radius:2px
+}
+
+/**************************************************
+	FORMAT MODIFY JOBS ON JOBS TAB
+**************************************************/
+#modify_job table{
+	padding: 0 0 0 5px;	
+}
+
+#modify_job input {
+	width: 280px;
+	margin: 0 0 5px 0;	
+	padding: 0 0 0 5px;
+}
+
+#modify_job .start_date {
+	width: 85px;	
+}
+
+#modify_job .end_date {
+	width: 85px;
+}
+
+#modify_job .funding {
+	width: 80px;
+	margin: 0 0 5px 0;	
+}
+
+#modify_job .profit {
+	width: 50px;
+	margin: 0 0 5px 0;	
+}
+
+#modify_job .save_icon {
+	background-image: url(../images/save.png);
+	background-repeat: no-repeat;
+	background-color: transparent;
+	float: right;
+	border: none;
+	margin: 2px 0 0 0;	
+	width: 28px;
+	height: 35px;
+	cursor: pointer;
+	outline: none;
+}
+
+/**************************************************
+	FORMAT HOLIDAYS
+**************************************************/
+#holidays {
+	background: #a7bbe8;
+	border: 1px solid black;
+	width: 90%;
+	float: left;
+	postion: absolute;
+	margin: 50px 0 0 40px;
+	padding: 25px 10px;	
+}
+
+.holidays {
+	width: 50%;
+	position: relative;
+	float: left;
+	margin: 1px 260px 1px 260px;
+	background-color: #CCCCCC;
+	border: double;
+	border-color: #000;
+}
+
+.holidays .label{
+	float: left;
+	padding: 4px 0 0 10px;
+	width: 210px;
+}
+
+.holidays .dates {
+	position: relative;
+	float: left;
+	padding: 4px 0 0 0;
+	margin: 0 0 0 120px;
+	width: 100px;
+}
+
+.holidays .dates span {
+	float: right;	
+}
+
+.holidays .icon {
+	float: right;
+	margin: 1px 10px 0 0;
+	outline: none;
+	width: 22px;
+	height: 22px;
+}
+
+/**************************************************
+	FORMAT ADD HOLIDAY ON HOLIDAYS TAB
+**************************************************/
+#new_holiday {
+	float: right;
+	position: relative;
+	margin: 32px 48px -50px 0;
+	border: 1px solid #000;
+	border-bottom: none;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	cursor: pointer;
+	background: #a7bbe8;
+	outline: none;
+}
+
+/**************************************************
+	FORMAT CREATE HOLIDAY ON HOLIDAYS TAB
+**************************************************/
+#create_holiday {
+	float: left;
+	width: 47.95%;
+	margin: 0 260px 20px 260px;
+	padding: 10px;
+	border: double;
+	background: #CCCCCC;
+	display: inline-block;
+}
+
+#create_holiday input {
+	width: 200px;
+	margin: 0 0 5px 0;	
+	padding: 0 0 0 5px;
+}
+
+#create_holiday .holiday_date {
+	width: 85px;	
+}
+
+#create_holiday .buttons {
+	width: 80px;
+	margin: 18px 0 0 0;
+	float: right;	
+}
+
+#create_holiday .add_icon {
+	background-image: url(../images/add.png);
+	background-repeat: no-repeat;
+	background-color: transparent;
+	float: left;
+	border: none;	
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	outline: none;
+}
+
+#create_holiday .cancel_icon {
+	background-image: url(../images/cancel.png);
+	background-repeat: no-repeat;
+	background-color: transparent;
+	margin: -3px 0 0 0;
+	float: right;
+	border: none;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	outline: none;
+}
+
+/**************************************************
+	FORMAT DELIVERY ORDERS
+**************************************************/
+#delivery_orders {
+	background: #a7bbe8;
+	border: 1px solid black;
+	width: 90%;
+	float: left;
+	postion: absolute;
+	margin: 50px 0 0 40px;
+	padding: 25px 10px;	
+}
+
+.delivery_orders {
+	width: 50%;
+	position: relative;
+	float: left;
+	margin: 1px 260px 1px 260px;
+	background-color: #CCCCCC;
+	border: double;
+	border-color: #000;
+}
+
+.delivery_orders .label{
+	float: left;
+	padding: 4px 0 0 10px;
+	width: 200px;
+}
+
+.delivery_orders .dates {
+	position: relative;
+	float: left;
+	padding: 4px 0 0 0;
+	margin: 0 0 0 120px;
+	width: 100px;
+}
+
+.delivery_orders .dates span {
+	float: right;	
+}
+
+.delivery_orders .icon {
+	float: right;
+	margin: 1px 10px 0 0;
+	outline: none;
+	width: 22px;
+	height: 22px;
+}
+
+/**************************************************
+	FORMAT ADD ORDER ON DELIVERY ORDERS TAB
+**************************************************/
+#new_order {
+	float: right;
+	position: relative;
+	margin: 32px 47px -50px 0;
+	border: 1px solid #000;
+	border-bottom: none;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	cursor: pointer;
+	background: #a7bbe8;
+	outline: none;
+}
+
+/**************************************************
+	FORMAT CREATE ORDER ON DELIVERY ORDERS TAB
+**************************************************/
+#create_order {
+	float: left;
+	width: 47.95%;
+	margin: 0 260px 20px 260px;
+	padding: 10px;
+	border: double;
+	background: #CCCCCC;
+	display: inline-block;
+}
+
+#create_order input {
+	width: 300px;
+	margin: 0 0 5px 0;	
+	padding: 0 0 0 5px;
+}
+
+#create_order .buttons {
+	width: 80px;
+	margin: 18px 0 0 0;
+	float: right;	
+}
+
+#create_order .add_icon {
+	background-image: url(../images/add.png);
+	background-repeat: no-repeat;
+	background-color: transparent;
+	float: left;
+	border: none;	
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	outline: none;
+}
+
+#create_order .cancel_icon {
+	background-image: url(../images/cancel.png);
+	background-repeat: no-repeat;
+	background-color: transparent;
+	margin: -3px 0 0 0;
+	float: right;
+	border: none;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	outline: none;
+}
+
+/**************************************************
+	FORMAT ADD GROUP ON GROUPS TAB
+**************************************************/
+#groups {
+	background: #a7bbe8;
+	border: 1px solid black;
+	width: 90%;
+	float: left;
+	postion: absolute;
+	margin: 50px 0 0 40px;
+	padding: 25px 10px;	
+}
+
+.groups {
+	width: 50%;
+	position: relative;
+	float: left;
+	margin: 1px 260px 1px 260px;
+	background-color: #CCCCCC;
+	border: double;
+	border-color: #000;
+}
+
+.groups .label{
+	float: left;
+	padding: 4px 0 0 10px;
+	width: 200px;
+}
+
+.groups .dates {
+	position: relative;
+	float: left;
+	padding: 4px 0 0 0;
+	margin: 0 0 0 120px;
+	width: 100px;
+}
+
+.groups .dates span {
+	float: right;	
+}
+
+.groups a {
+	background: url(../images/edit.png) no-repeat;
+	float: right;
+	margin: 0 15px 0 0;
+	outline: none;
+	width: 22px;
+	height: 22px;
+}
+
+.groups .icon {
+	float: right;
+	margin: 1px 10px 0 0;
+	outline: none;
+	width: 22px;
+	height: 22px;
+}
+
+/**************************************************
+	FORMAT ADD GROUP ON GROUPS TAB
+**************************************************/
+#new_group {
+	float: right;
+	position: relative;
+	margin: 32px 47px -50px 0;
+	border: 1px solid #000;
+	border-bottom: none;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	cursor: pointer;
+	background: #a7bbe8;
+	outline: none;
+}
+
+/**************************************************
+	FORMAT CREATE GROUP ON GROUPS TAB
+**************************************************/
+#create_group {
+	float: left;
+	width: 47.95%;
+	margin: 0 260px 20px 260px;
+	padding: 10px;
+	border: double;
+	background: #CCCCCC;
+	display: inline-block;
+}
+
+#create_group input {
+	width: 300px;
+	margin: 0 0 5px 0;	
+	padding: 0 0 0 5px;
+}
+
+#create_group .group_date {
+	width: 85px;	
+}
+
+#create_group .buttons {
+	width: 80px;
+	margin: 18px 0 0 0;
+	float: right;	
+}
+
+#create_group .add_icon {
+	background-image: url(../images/add.png);
+	background-repeat: no-repeat;
+	background-color: transparent;
+	float: left;
+	border: none;	
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	outline: none;
+}
+
+#create_group .cancel_icon {
+	background-image: url(../images/cancel.png);
+	background-repeat: no-repeat;
+	background-color: transparent;
+	margin: -3px 0 0 0;
+	float: right;
+	border: none;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	outline: none;
+}
+
+/**************************************************
+	FORMAT MODIFY GROUPS ON GROUPS TAB
+**************************************************/
+#modify_group table{
+	padding: 15px 0 0 5px;	
+	margin: 0 0 0 30px;
+}
+
+
+#modify_group input {
+	width: 280px;
+	margin: 0 0 5px 0;	
+	padding: 0 0 0 5px;
+}
+
+#modify_group .save_icon {
+	background-image: url(../images/save.png);
+	background-repeat: no-repeat;
+	background-color: transparent;
+	float: right;
+	border: none;
+	margin: 2px 0 0 0;	
+	width: 28px;
+	height: 35px;
+	cursor: pointer;
+	outline: none;
+}
+
+/**************************************************
+	FORMAT CURRENT EMPLOYEES ON GROUPS TAB
+**************************************************/
+#current_employees {
+	float: right;
+	margin: 20px 20px 0 0;
+}
+
+#current_employees ul {
+	list-style-image: url(../images/remove_employee.png);
+	list-style-position: outside;
+	padding: 0;
+}
+
+#current_employees li {
+	padding: 0 0 5px 0;	
+	cursor: pointer;
+}
+
+#current_employees li:hover {
+	padding: 0 0 5px 0;
+	text-decoration: underline;
+	color: #fff;
+}
+
+/**************************************************
+	FORMAT ADD EMPLOYEES ON GROUPS TAB
+**************************************************/
+#add_employees {
+	float: left;
+	margin: 20px 0 0 40px;
+	
+}
+
+#add_employees ul {
+	list-style-image: url(../images/add_employee.png);
+	list-style-position: outside;
+	padding: 0;
+}
+
+#add_employees li {
+	padding: 0 0 5px 0;	
+	cursor: pointer;
+}
+
+#add_employees li:hover {
+	padding: 0 0 5px 0;
+	text-decoration: underline;
+	color: #fff;
+}
+
+/**************************************************
+	REPORTS TAB CSS
+**************************************************/
+#emp_report_link {
+	color: #000;
+}
+
+#emp_report_form {
+	margin: 5px 0 0 30px;
+}
+
+.emp_form {
+	margin: 5px 0 0 10px;	
+}
+
+#job_report_link {
+	color: #000;	
+}
+
+#job_report_form {
+	margin: 20px 0 0 30px;
+}
+
+.job_form {
+	margin: 5px 0 0 10px;	
+}
+
+#dates {
+	margin: 0 0 0 10px; 	
+	display: inline;
+}
+
+#dates input {
+	width: 80px;
+	margin: -2px 0 0 0; 
+	padding: 0 0 0 5px; 
+}
+
+#generate_report {
+	outline: none;
+	border:1px solid #7d99ca; 
+	-webkit-border-radius: 3px; 
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	padding: 2px 5px;
+	font-size:12px;
+	font-family:arial, helvetica, sans-serif; 
+	text-decoration:none; 
+	display:inline-block;
+	text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+	font-weight:bold; 
+	color: #fff;
+	background-color: #a5b8da; 
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#a5b8da), to(#7089b3));
+	background-image: -webkit-linear-gradient(top, #a5b8da, #7089b3);
+	background-image: -moz-linear-gradient(top, #a5b8da, #7089b3);
+	background-image: -ms-linear-gradient(top, #a5b8da, #7089b3);
+	background-image: -o-linear-gradient(top, #a5b8da, #7089b3);
+	background-image: linear-gradient(to bottom, #a5b8da, #7089b3);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#a5b8da, endColorstr=#7089b3);
+}
+
+#generate_report:hover{
+	border:1px solid #5d7fbc;
+	background-color: #819bcb; 
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#819bcb), to(#536f9d));
+	background-image: -webkit-linear-gradient(top, #819bcb, #536f9d);
+	background-image: -moz-linear-gradient(top, #819bcb, #536f9d);
+	background-image: -ms-linear-gradient(top, #819bcb, #536f9d);
+	background-image: -o-linear-gradient(top, #819bcb, #536f9d);
+	background-image: linear-gradient(to bottom, #819bcb, #536f9d);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#819bcb, endColorstr=#536f9d);
+}
+
+/**************************************************
+	IE SPECIFIC CSS
+**************************************************/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
+
+/**************************************************
+	LOGIN STYLE
+**************************************************/
+  #login h4 {
+	  font-family: 'Play', sans-serif;
+	  margin-left: 145px;
+	  margin-top: -20px;
+  }
+ 
+/**************************************************
+	LOGIN STYLE
+**************************************************/ 
+  .greet_user {
+	margin: -48px 0 0 35px;
+	position: relative;
+  }
+
+/**************************************************
+	ADMIN TABS STYLE
+**************************************************/
+  #options {
+	  margin: -19px 0 10px 320px;
+	  position: relative;
+	  list-style: none;
+  }
+  
+  #links {
+	float: right;
+	margin: -11px -25px 20px 0;
+	position: relative;
+	list-style: none;
+	list-style-position: outside;
+  }
+
+/**************************************************
+	DISABLED EMPLOYEES STYLE
+**************************************************/
+  #view_disabled_employees {
+	  clear: both;
+	  float: left;
+	  margin: -19px 0 0 210px;
+  }
+ 
+  .disabled_employees_text {
+	  clear: both;
+	  float: left;
+	  margin: -16px 0 0 235px;	
+  }
+
+/**************************************************
+	EMPLOYEE JOBS HEADER STYLE
+**************************************************/ 
+  
+  #emp_jobs_header .emp_num_label {
+	  float: right;
+	  margin: -76px 255px 0 0;
+  }
+  
+  #emp_jobs_header .emp_num {	
+	  clear: both;
+	  float: right;
+	  margin: -98px 220px 0 0;
+	  width: 20px;
+	  text-align: center;
+  }
+  
+  #emp_jobs_header .load_rate_label {
+	  clear: both;
+	  float: right;
+	  margin: -97px 110px 0 0;
+  }
+  
+  #emp_jobs_header .load_rate {
+	  clear: both;
+	  float: right;
+	  margin: -99px 45px 0 0;
+	  width: 50px;
+  }
+  
+  #emp_jobs_header a {
+	  color: #000;
+	  text-decoration: none;	
+	  border: 1px solid black;
+	  padding: 0 3px 0 3px;
+	  margin: -2px 0 0 3px; 
+	  width: 20px;
+	  height: 20px;
+	  background: #ccc;
+	  cursor: pointer;
+	  float: left;
+  }
+  
+  #emp_jobs_header .return_emp_info {
+	  float: right;	
+	  margin: -22px 42px 0 0;
+	  text-align: center;
+	  padding: 3px 3px 0 3px;
+	  width: 43px;
+	  height: 20px;
+  }
+  
+  #emp_jobs_header .disable_emp_box {
+	float: right;
+	margin: -21px 55px 0 0;	
+  }
+  
+/**************************************************
+	NEW GROUPS BUTTON STYLE
+**************************************************/   
+  #new_group {
+	float: right;
+	position: relative;
+	margin: 32px 47px -50px 0;
+	border: 1px solid #000;
+	border-bottom: none;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	cursor: pointer;
+	background: #a7bbe8;
+	outline: none;
+  }
+  
+/**************************************************
+	GROUP ICON STYLE
+**************************************************/   
+  .groups a {
+	background: url(../images/edit.png) no-repeat;
+	float: right;
+	margin: 0 15px 0 0;
+	padding-bottom: 2px;
+	outline: none;
+	width: 22px;
+	height: 22px;
+  }
+
+  .groups .icon {
+	float: right;
+	margin: 1px 10px 0 0;
+	padding-bottom: 2px;
+	outline: none;
+	width: 22px;
+	height: 22px;
+  }
+  
+/**************************************************
+	NEW JOBS BUTTON STYLE
+**************************************************/ 
+  #new_job {
+	float: right;
+	position: relative;
+	margin: 33px 47px -50px 0;
+	border: 1px solid #000;
+	border-bottom: none;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	cursor: pointer;
+	background: #a7bbe8;
+	outline: none;
+  }
+
+/**************************************************
+	NEW HOLIDAY BUTTON STYLE
+**************************************************/ 
+  #new_holiday {
+	float: right;
+	position: relative;
+	margin: 33px 47px -50px 0;
+	border: 1px solid #000;
+	border-bottom: none;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	cursor: pointer;
+	background: #a7bbe8;
+	outline: none;
+  }
+
+/**************************************************
+	HOLIDAY LABEL STYLE
+**************************************************/ 
+  .holidays .label{
+	float: left;
+	padding: 4px 0 0 10px;
+	width: 210px;
+  }
+
+/**************************************************
+	NEW ORDER BUTTON STYLE
+**************************************************/ 
+  #new_order {
+	float: right;
+	position: relative;
+	margin: 32px 47px -50px 0;
+	border: 1px solid #000;
+	border-bottom: none;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	cursor: pointer;
+	background: #a7bbe8;
+	outline: none;
+  }
+}
+
+/**************************************************
+	MOZ SPECIFIC CSS
+**************************************************/
+
+@-moz-document url-prefix() {
+
+/**************************************************
+	GREET USER STYLE
+**************************************************/ 	
+  .greet_user {
+	margin: -46px 0 0 35px;
+	position: relative;
+  }
+
+/**************************************************
+	DASHBOARD LINKS STYLE
+**************************************************/ 	
+  #dashboard_links {
+	float: right;
+	margin: -20px -25px 20px 0;
+	position: relative;
+	list-style: none;
+	list-style-position: outside;
+  }
+
+/**************************************************
+	PAY PERIOD LABEL STYLE
+**************************************************/ 	
+  .pay_period_label {
+	margin: 30px 0 0 25px;
+	float: left;	
+  }
+
+/**************************************************
+	TIMESHEET STYLE
+**************************************************/ 	
+  #timesheet {
+	width: 1040px;
+	margin: 90px auto 55px;
+	padding: 15px 0;
+	background: #6787d0;	
+  }	
+
+/**************************************************
+	GREET USER STYLE
+**************************************************/ 	
+  .admin_greet_user {
+	margin: -50px 0 0 35px;
+	position: relative;
+  }
+
+/**************************************************
+	LINKS STYLE
+**************************************************/ 	
+  #links {
+	float: right;
+	margin: -9px -25px 20px 0;
+	position: relative;
+	list-style: none;
+	list-style-position: outside;
+  }
+}
